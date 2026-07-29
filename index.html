@@ -1,16 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>ImtOS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImtOS — Corporate Studio Environment</title>
+
+    <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/windows.css">
 </head>
 
 <body>
-    <h1>Welcome to ImtOS</h1>
-    <h2>ImtOS is a simple operating system designed for educational purposes. It answers "who is imtiaz"</h2>
-    <p>Hello world!</p>
-    <img src="nudes.jpg" />
-    <a href="github.com/not-imtiaz">Github</a>
+
+    <!-- Background Wallpaper Container -->
+    <div id="desktop-wallpaper" style="background-image: url('assets/sreemangal.jpg');"></div>
+    <div id="wallpaper-overlay"></div>
+
+    <!-- Top System Bar -->
+    <header id="top-bar">
+        <div class="top-bar-left">
+            <span class="system-title">ImtOS</span>
+            <span class="system-status">Corporate Studio</span>
+        </div>
+        <div class="top-bar-center">
+            <span id="system-clock">00:00 AM</span>
+        </div>
+        <div class="top-bar-right">
+            <span class="status-badge">Online</span>
+        </div>
+    </header>
+
+    <!-- Main Canvas for Windows -->
+    <main id="desktop-canvas"></main>
+
+    <!-- Floating Glass Dock -->
+    <nav id="floating-dock">
+        <button class="dock-item" data-app="terminal" title="Terminal (CLI)">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="4 17 10 11 4 5"></polyline>
+                <line x1="12" y1="19" x2="20" y2="19"></line>
+            </svg>
+            <span class="dock-tooltip">Terminal</span>
+        </button>
+
+        <button class="dock-item" data-app="showcase" title="Project Showcase">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+            <span class="dock-tooltip">Projects</span>
+        </button>
+
+        <button class="dock-item" data-app="logbook" title="Logbook & Ideas">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+            <span class="dock-tooltip">Logbook</span>
+        </button>
+
+        <button class="dock-item" data-app="mediaplayer" title="Media Player">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            <span class="dock-tooltip">Media Player</span>
+        </button>
+
+        <button class="dock-item" data-app="widgets" title="System Widgets">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+            </svg>
+            <span class="dock-tooltip">Widgets</span>
+        </button>
+    </nav>
+
+    <script src="js/windowManager.js"></script>
+    <script src="js/apps/terminal.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,151 @@
+:root {
+    --bg-studio: #f8f9fa;
+    --glass-white: rgba(255, 255, 255, 0.72);
+    --glass-border: rgba(255, 255, 255, 0.85);
+    --text-dark: #1e2421;
+    --text-muted: #64748b;
+    --olive-primary: #4a5d4e;
+    --olive-hover: #3c4b3f;
+    --olive-light: rgba(74, 93, 78, 0.12);
+    --font-main: 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --shadow-studio: 0 20px 40px -15px rgba(0, 0, 0, 0.08), 0 0 15px rgba(0, 0, 0, 0.03);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--text-dark);
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Wallpaper Layer */
+#desktop-wallpaper {
+    position: fixed;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+#wallpaper-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(248, 249, 250, 0.35);
+    /* Soft light overlay */
+    backdrop-filter: blur(4px);
+    z-index: 1;
+}
+
+/* Top System Bar */
+#top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 38px;
+    background: var(--glass-white);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--glass-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 18px;
+    z-index: 9999;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.system-title {
+    font-weight: 700;
+    color: var(--olive-primary);
+    margin-right: 12px;
+}
+
+.system-status {
+    color: var(--text-muted);
+    font-size: 12px;
+}
+
+.status-badge {
+    background: var(--olive-light);
+    color: var(--olive-primary);
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+/* Canvas Area */
+#desktop-canvas {
+    position: fixed;
+    top: 38px;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+/* Floating Glass Dock */
+#floating-dock {
+    position: fixed;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 60px;
+    background: var(--glass-white);
+    backdrop-filter: blur(24px);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 14px;
+    box-shadow: var(--shadow-studio);
+    z-index: 9998;
+}
+
+.dock-item {
+    position: relative;
+    background: transparent;
+    border: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--olive-primary);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dock-item:hover {
+    background: var(--olive-light);
+    transform: translateY(-4px) scale(1.08);
+}
+
+.dock-tooltip {
+    position: absolute;
+    top: -36px;
+    background: var(--text-dark);
+    color: #fff;
+    font-size: 11px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    white-space: nowrap;
+}
+
+.dock-item:hover .dock-tooltip {
+    opacity: 1;
+}
