@@ -79,7 +79,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     wm.createWindow('tictactoe', 'Tic Tac Toe — ImtOS Studio', '<p style="padding: 20px;">Tic Tac Toe game loading...</p>');
                     break;
                 case 'guessnumber':
-                    wm.createWindow('guessnumber', 'Guess The Number — ImtOS Studio', '<p style="padding: 20px;">Guess The Number game loading...</p>');
+                    if (typeof window.initGuessNumberApp === 'function') {
+                        window.initGuessNumberApp();
+                    }
                     break;
                 case 'showcase':
                     wm.createWindow('showcase', 'Project Showcase', '<p style="padding: 20px;">Projects content loading...</p>');
