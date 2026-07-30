@@ -27,7 +27,9 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (appType === 'widgets') {
                 wm.createWindow('widgets', 'System Metrics', '<p style="padding: 20px;">Live Widgets coming soon.</p>');
             } else if (appType === 'mediaplayer') {
-                wm.createWindow('mediaplayer', 'Media Player', '<p style="padding: 20px;">Media player controls.</p>');
+                if (typeof window.initMediaPlayerApp === 'function') {
+                    window.initMediaPlayerApp();
+                }
             }
         });
     });

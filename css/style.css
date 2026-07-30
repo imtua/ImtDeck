@@ -32,15 +32,17 @@ body {
     inset: 0;
     background-size: cover;
     background-position: center;
+    filter: contrast(105%) brightness(95%);
     z-index: 0;
 }
 
 #wallpaper-overlay {
     position: fixed;
     inset: 0;
-    background: rgba(248, 249, 250, 0.35);
+    background: rgba(248, 249, 250, 0.08);
     /* Soft light overlay */
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(0px);
+    pointer-events: none;
     z-index: 1;
 }
 
