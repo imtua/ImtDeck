@@ -25,7 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (appType === 'logbook') {
                 wm.createWindow('logbook', 'Logbook & Notes', '<p style="padding: 20px;">Ideas & Logbook space.</p>');
             } else if (appType === 'widgets') {
-                wm.createWindow('widgets', 'System Metrics', '<p style="padding: 20px;">Live Widgets coming soon.</p>');
+                if (typeof window.initWidgetsApp === 'function') {
+                    window.initWidgetsApp();
+                }
             } else if (appType === 'mediaplayer') {
                 if (typeof window.initMediaPlayerApp === 'function') {
                     window.initMediaPlayerApp();
@@ -33,4 +35,62 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // 3. Menu
+
+    const launcherBtn = document.getElementById('app-launcher-btn');
+    const appMenu = document.getElementById('app-menu');
+
+    if (launcherBtn && appMenu) {
+        launcherBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            appMenu.classList.toggle('hidden');
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!appMenu.contains(e.target) && e.target !== launcherBtn) {
+                appMenu.classList.add('hidden');
+            }
+        });
+    }
+
+    document.querySelectorAll('.app-menu-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const app = card.getAttribute('data-app');
+            appMenu.classList.add('hidden');
+
+            switch (app) {
+                case 'terminal':
+                    if (typeof window.initTerminalApp === 'function') window.initTerminalApp();
+                    break;
+                case 'mediaplayer':
+                    if (typeof window.initMediaPlayerApp === 'function') window.initMediaPlayerApp();
+                    break;
+                case 'widgets':
+                    if (typeof window.initWidgetsApp === 'function') window.initWidgetsApp();
+                    break;
+                case 'gallery':
+                    wm.createWindow('gallery', 'Gallery — ImtOS Studio', '<p style="padding: 20px;">Gallery content loading...</p>');
+                    break;
+                case 'calculator':
+                    wm.createWindow('calculator', 'Calculator — ImtOS Studio', '<p style="padding: 20px;">Calculator content loading...</p>');
+                    break;
+                case 'tictactoe':
+                    wm.createWindow('tictactoe', 'Tic Tac Toe — ImtOS Studio', '<p style="padding: 20px;">Tic Tac Toe game loading...</p>');
+                    break;
+                case 'guessnumber':
+                    wm.createWindow('guessnumber', 'Guess The Number — ImtOS Studio', '<p style="padding: 20px;">Guess The Number game loading...</p>');
+                    break;
+                case 'showcase':
+                    wm.createWindow('showcase', 'Project Showcase', '<p style="padding: 20px;">Projects content loading...</p>');
+                    break;
+                case 'logbook':
+                    wm.createWindow('logbook', 'Logbook & Notes', '<p style="padding: 20px;">Ideas & Logbook space.</p>');
+                    break;
+                default:
+                    break;
+
+            }
+        })
+    })
 });
