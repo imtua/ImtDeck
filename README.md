@@ -6,6 +6,5 @@ A sleek, minimalist, desktop-grade web operating system built with Vanilla javas
 
 ImtOS comes packed with 10 native applications and core system features:
 
-- Desktop System Engine:
-
-Window Manager: Supports dragging.
+- Desktop System Engine: 
+Window Manager: Supports dragging, z-index focus stacking, opening, minimizing, and closing multiple concurrent windows.
