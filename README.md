@@ -15,11 +15,11 @@ I made it show if its online, then it would show current time and those 5 apps i
 In this OS, I used one of my photographys as a wallpaper. This is one of my favourites, coz i went to Sreemangal, Bangladesh in my weekend and took this photo as a memory.
 It was already looking nice, but without any applications and softwares.
 
-![Style file creation](assets/readme/windowmanager.jpg)
+![Window manager creation](assets/readme/windowmanager.jpg)
 **3.** Created a window manager javascript file.
 It will help me create any sized window in ImtOS without writing the same code again and again. I've tried to keep the aesthetics of MacOS here too.
 
-![Style file creation](assets/readme/terminal.jpg)
+![Terminal App creation](assets/readme/terminal.jpg)
 **4.** Added terminal. 
 In this terminal, i've added some easter eggs things.
 Added these commands as commands.
@@ -37,7 +37,7 @@ and typing secret would give you root access of ImtOS.
 
 added them just for fun, they maybe dont make any sense lol.
 
-![Style file creation](assets/readme/media.jpg)
+![Media app creation](assets/readme/media.jpg)
 **5.** Added Media Player.
 This isn't actually a media player, coz it just runs some songs.
 But I'll add a whole media feature in it in WebOS 2 Mission!
@@ -68,3 +68,22 @@ I added 22 Songs here, they are-
 
 make sure to listen to them, they are my favs!
 
+![Widget hub creation](assets/readme/widget.jpg)
+**6.** Added widget hub.
+As it runs on website and its not actually an operating system, the system metrics is just a dumb data.
+Other than that, it shows current time, data and day, a quote and a quick memo.
+I also made the wallpaper crisp, coz why am i even adding a white layer in front of a natural picture?
+
+![Atom App creation](assets/readme/atom.jpg)
+**7.** Added application hub.
+In the left bottom corner of the screen, i added an atom design taken from a sketchy website i forgot.
+But it represents my interests towards chemistry too.
+In that, i added 10 apps of ImtOS, used SVG icons for the apps to show.
+
+![Guess the number game creation](assets/readme/guess.jpg)
+**8.** Added Guess The Number game.
+In this game, the computer decides a random number from 1 to 100.
+The user or the player has to guess the number. To guess it correctly, after guessing one, the computer gives hints if the number is higher or lower than the number user guessed.
+This game is very easy to play as the user gets 10 chances.
+
+![Tic Tac Toe game creation](assets/readme/tictactoe.jpg)
