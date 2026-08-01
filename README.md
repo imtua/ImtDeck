@@ -77,3 +77,12 @@ npx serve .
 
 ### 3. Open in browser
 Navigate to http://localhost:8000 in chrome, firefox or brave.
+
+# 🛠️ Built With
+- HTML5 & CSS3 - Firefox, CSS Grid, Glassmorphism Backdrop Filters, CSS Variables.
+-Vanilla Javascript (ES6+) - Zero heavy external framework dependencies; pure DOM manipulations.
+- SVG & Canvas - Crisp vector icons and responsive interface scaling.
+
+# 📄 License
+
+Distributed under the MIT License. See LICENSE for more information.
