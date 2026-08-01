@@ -21,12 +21,12 @@ In this terminal, i've added some easter eggs things.
 Added these commands as commands.
 
 **System Commands:**
-- whoami   : Display user identity & role
-- bio      : Personal background & story
-- projects : Quick list of featured builds
-- photo    : [Easter Egg] Reveal photograph
-- secret   : [Easter Egg] System mystery
-- clear    : Clear terminal screen
+- **whoami**   : Display user identity & role
+- **bio**      : Personal background & story
+- **projects** : Quick list of featured builds
+- **photo**    : [Easter Egg] Reveal photograph
+- **secret**   : [Easter Egg] System mystery
+- **clear**    : Clear terminal screen
 
 typing photo in the terminal would open a funny photoshop of me lol. :3
 and typing secret would give you root access of ImtOS.
@@ -60,3 +60,6 @@ I added 22 Songs here, they are-
 - **See You Again** by Tyler, The Creator
 - **Tek it** by Cafune
 - **The Less I Know The Better** by Tame Impala
+
+make sure to listen to them, they are my favs!
+
