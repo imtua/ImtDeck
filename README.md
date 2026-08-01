@@ -10,6 +10,7 @@ So, In the journey of ImtOS,
 **1.** Created the index.html, which is the main frontend.
 I made it show if its online, then it would show current time and those 5 apps in the dock.
 
+![Style file creation](assets/readme/style.jpg)
 **2.** Made the style.css file. 
 In this OS, I used one of my photographys as a wallpaper. This is one of my favourites, coz i went to Sreemangal, Bangladesh in my weekend and took this photo as a memory.
 It was already looking nice, but without any applications and softwares.
