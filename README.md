@@ -26,7 +26,7 @@ ImtOS comes packed with 10 native applications and core system features:
 
 # 📁 Project Directory Structure
 
-'''
+```
 ImtOS/
 ├── index.html              # Main HTML container & OS shell
 ├── css/
@@ -52,4 +52,4 @@ ImtOS/
     └── gallery/            # Photography gallery images
         ├── Imtiaz/         # 15 photo assets
         └── Photographys/   # 16 photo assets
-'''
+```
