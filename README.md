@@ -1,88 +1,62 @@
-# 🪐 ImtOS - Corporate Studio WebOS
+# 🪐 ImtOS - WebOS based on Imtiaz Ahmed
 
-A sleek, minimalist, desktop-grade web operating system built with Vanilla javascript, html5, and css3. Designed with a brutalist-light glassmorphic aesthetic, custom window management system, floating glass dock, app launcher, and built-in interactive applications.
+Hey, Welcome to the readme file of ImtOS. Here, I am gonna share my journey of how i made the ImtOS.
 
-# ✨ Features & Ecosystem
+I am Imtiaz Ahmed, an developer from Bangladesh who has made multiple websites for shops around me. 
+So, I have a little knowledge about HTML, CSS and JS.
 
-ImtOS comes packed with 10 native applications and core system features:
+So, In the journey of ImtOS, 
+1. Created the index.html, which is the main frontend.
+I made it show if its online, then it would show current time and those 5 apps in the dock.
 
-**Desktop System Engine:** 
-- Window Manager: Supports dragging, z-index focus stacking, opening, minimizing, and closing multiple concurrent windows.
-- Live System Bar: Real-time system clock with high-contrast status metrics.
-- Atom App Launcher: Bottom-left glass popover menu with custom SVG application icons.
-- Floating Glass Dock: Quick-access bottom dock with active window indicators and tooltips.
+2. Made the style.css file. 
+In this OS, I used one of my photographys as a wallpaper. This is one of my favourites, coz i went to Sreemangal, Bangladesh in my weekend and took this photo as a memory.
+It was already looking nice, but without any applications and softwares.
 
-**Native Applications:**
-- Photography Gallery: Multi-folder image viewer (Imtiaz & Photographys) featuring uncropped masonry grid layouts and wide-screen lightbox viewing.
-- Calculator: Standard mathematical expression evaluation with live history, backspace, and full physical keyboard bindings.
-- Tic Tac Toe: Interactive game featuring simple/smart CPU opponent AI, score tracking, and live win-line visualizers.
-- Guess The Number: Logic guessing game with 10 attempts limit, instant higher/lower hints, and guess history tagging.
-- System Widgets: Live dashboard showing system resource utilization and customizable quick widgets.
-- Media Player: Web audio player interface with custom controls and playlist handling.
-- Contact Card: Direct connection hub with quick copy-to-clipboard actions and links to Email, Github, LinkedIn, Instagram, and Discord.
-- Terminal CLI: Interactive command-line interface with custom system commands and system diagnostic tools.
-- Project Showcase: Interactive portfolio switcher featuring deep-dive breakdowns and 3-photo image preview galleries for projects.
-- Logbook: In-memory session notepad that resets state upon browser refresh.
+3. Created a window manager javascript file.
+It will help me create any sized window in ImtOS without writing the same code again and again. I've tried to keep the aesthetics of MacOS here too.
 
-# 📁 Project Directory Structure
+4. Added terminal. 
+In this terminal, i've added some easter eggs things.
+Added these commands as commands.
 
-```
-ImtOS/
-├── index.html              # Main HTML container & OS shell
-├── css/
-│   ├── style.css           # Core desktop, app launcher, and dock styling
-│   └── windows.css         # Styling for window manager & native apps
-├── js/
-│   ├── windowManager.js    # Dragging, stacking, and window lifetime control
-│   ├── app.js              # Application launcher & main event routing
-│   └── apps/
-│       ├── terminal.js     # Terminal CLI logic
-│       ├── mediaplayer.js  # Audio player logic
-│       ├── widgets.js      # System widgets engine
-│       ├── guessnumber.js  # Guess the Number game
-│       ├── tictactoe.js    # Tic Tac Toe vs CPU logic
-│       ├── calculator.js   # BODMAS Calculator engine
-│       ├── contact.js      # Contact cards logic
-│       ├── showcase.js     # Project showcase switcher & 3-photo gallery
-│       ├── gallery.js      # Photography gallery & lightbox modal
-│       └── logbook.js      # Temporary note-taking logbook
-└── assets/
-    ├── icons/              # Custom SVG app icons
-    ├── projects/           # Screenshots for showcase projects
-    └── gallery/            # Photography gallery images
-        ├── Imtiaz/         # 15 photo assets
-        └── Photographys/   # 16 photo assets
-```
+System Commands:
+whoami   : Display user identity & role
+bio      : Personal background & story
+projects : Quick list of featured builds
+photo    : [Easter Egg] Reveal photograph
+secret   : [Easter Egg] System mystery
+clear    : Clear terminal screen
 
-# 🚀 Getting Started Locally
+typing photo in the terminal would open a funny photoshop of me lol. :3
+and typing secret would give you root access of ImtOS.
 
-Because ImtOS loads external ES modules and assets, it must be served over an HTTP protocol rather than raw file access (file://).
-### 1. Clone the repository:
+added them just for fun, they maybe dont make any sense lol.
 
-```bash
-git clone https://github.com/not-imtiaz/ImtOS
-cd ImtOS
-```
+5. Added Media Player.
+This isn't actually a media player, coz it just runs some songs.
+But I'll add a whole media feature in it in WebOS 2 Mission!
 
-### 2. Start a local development server:
-Using Python 3
-
-```bash
-python3 -m http.server 8000
-```
-Or using Node/npx;
-```bash
-npx serve .
-```
-
-### 3. Open in browser
-Navigate to http://localhost:8000 in chrome, firefox or brave.
-
-# 🛠️ Built With
-- HTML5 & CSS3 - Firefox, CSS Grid, Glassmorphism Backdrop Filters, CSS Variables.
--Vanilla Javascript (ES6+) - Zero heavy external framework dependencies; pure DOM manipulations.
-- SVG & Canvas - Crisp vector icons and responsive interface scaling.
-
-# 📄 License
-
-Distributed under the MIT License. See LICENSE for more information.
+I added 22 Songs here, they are- 
+- American Boy by Kanye West
+- Bad Habit by Steve Lacy 
+- Bound 2 by Kanye West 
+- Chamber of Reflection by Mac DeMarco 
+- Chicago by Michael Jackson 
+- Confidence by Kim
+- Dark Red by Steve Lacy
+- Duvet by Bôa
+- Flashing Lights by Kanye West
+- For the First Time by Mac DeMarco
+- From The Start by Laufey
+- Ginseng Strip 2002 by Yung Lean
+- Headlock by Imogen Heap
+- I Wonder by Kanye West
+- Ice by Zertal
+- Let it Happen by Tame Impala
+- Like Him by Tyler, The Creator
+- Lover Girl by Laufey
+- New Person, Same Old Mistakes by Tame Impala
+- See You Again by Tyler, The Creator
+- Tek it by Cafune
+- The Less I Know The Better by Tame Impala
