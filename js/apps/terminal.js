@@ -68,8 +68,8 @@ window.initTerminalApp = function () {
                 case 'photo':
                     appendLine(`
             <div class="terminal-photo-card">
-              <img src="assets/sreemangal.jpg" alt="Sreemangal Portrait" style="max-width: 100%; border-radius: 8px; margin: 8px 0;" />
-              <p><i>Captured in Sreemangal</i></p>
+              <img src="nudes.jpg" alt="Imtiaz Portrait" style="max-width: 100%; border-radius: 8px; margin: 8px 0;" />
+              <p><i>Captured in Silence</i></p>
             </div>
           `, 'easter-egg');
                     break;

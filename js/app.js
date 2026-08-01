@@ -21,9 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     console.error('initTerminalApp function not found! Check script order.');
                 }
             } else if (appType === 'showcase') {
-                wm.createWindow('showcase', 'Project Showcase', '<p style="padding: 20px;">Projects content loading...</p>');
+                if (typeof window.initShowcaseApp === 'function') {
+                    window.initShowcaseApp();
+                }
             } else if (appType === 'logbook') {
-                wm.createWindow('logbook', 'Logbook & Notes', '<p style="padding: 20px;">Ideas & Logbook space.</p>');
+                if (typeof window.initLogbookApp === 'function') {
+                    window.initLogbookApp();
+                }
             } else if (appType === 'widgets') {
                 if (typeof window.initWidgetsApp === 'function') {
                     window.initWidgetsApp();
@@ -61,34 +65,65 @@ document.addEventListener('DOMContentLoaded', () => {
 
             switch (app) {
                 case 'terminal':
-                    if (typeof window.initTerminalApp === 'function') window.initTerminalApp();
+                    if (typeof window.initTerminalApp === 'function') {
+                        window.initTerminalApp();
+                    }
                     break;
+
                 case 'mediaplayer':
-                    if (typeof window.initMediaPlayerApp === 'function') window.initMediaPlayerApp();
+                    if (typeof window.initMediaPlayerApp === 'function') {
+                        window.initMediaPlayerApp();
+                    }
                     break;
+
                 case 'widgets':
-                    if (typeof window.initWidgetsApp === 'function') window.initWidgetsApp();
+                    if (typeof window.initWidgetsApp === 'function') {
+                        window.initWidgetsApp();
+                    }
                     break;
+
                 case 'gallery':
-                    wm.createWindow('gallery', 'Gallery — ImtOS Studio', '<p style="padding: 20px;">Gallery content loading...</p>');
+                    if (typeof window.initGalleryApp === 'function') {
+                        window.initGalleryApp();
+                    }
                     break;
+
                 case 'calculator':
-                    wm.createWindow('calculator', 'Calculator — ImtOS Studio', '<p style="padding: 20px;">Calculator content loading...</p>');
+                    if (typeof window.initCalculatorApp === 'function') {
+                        window.initCalculatorApp();
+                    }
                     break;
+
                 case 'tictactoe':
-                    wm.createWindow('tictactoe', 'Tic Tac Toe — ImtOS Studio', '<p style="padding: 20px;">Tic Tac Toe game loading...</p>');
+                    if (typeof window.initTicTacToeApp === 'function') {
+                        window.initTicTacToeApp();
+                    }
                     break;
+
                 case 'guessnumber':
                     if (typeof window.initGuessNumberApp === 'function') {
                         window.initGuessNumberApp();
                     }
                     break;
+
                 case 'showcase':
-                    wm.createWindow('showcase', 'Project Showcase', '<p style="padding: 20px;">Projects content loading...</p>');
+                    if (typeof window.initShowcaseApp === 'function') {
+                        window.initShowcaseApp();
+                    }
                     break;
+
                 case 'logbook':
-                    wm.createWindow('logbook', 'Logbook & Notes', '<p style="padding: 20px;">Ideas & Logbook space.</p>');
+                    if (typeof window.initLogbookApp === 'function') {
+                        window.initLogbookApp();
+                    }
                     break;
+
+                case 'contact':
+                    if (typeof window.initContactApp === 'function') {
+                        window.initContactApp();
+                    }
+                    break;
+
                 default:
                     break;
 
