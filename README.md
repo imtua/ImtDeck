@@ -6,6 +6,7 @@ I am Imtiaz Ahmed, an developer from Bangladesh who has made multiple websites f
 So, I have a little knowledge about HTML, CSS and JS.
 
 So, In the journey of ImtOS, 
+![Index file creation](assets/readme/indexfile.jpg)
 **1.** Created the index.html, which is the main frontend.
 I made it show if its online, then it would show current time and those 5 apps in the dock.
 
