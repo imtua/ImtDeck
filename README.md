@@ -87,3 +87,48 @@ The user or the player has to guess the number. To guess it correctly, after gue
 This game is very easy to play as the user gets 10 chances.
 
 ![Tic Tac Toe game creation](assets/readme/tictactoe.jpg)
+**9.** Added Tic Tac Toe game.
+In this game, you're actually playing with the computer. The code written in it knows whats the best move, do your move wisely.
+
+![Calculator App creation](assets/readme/calc.jpg)
+**10.** Added Calculator App.
+Now, you can do basic calculations in ImtOS!!
+Take your notebooks and start doing this equations: 2+3 and 6+7
+lol :3
+
+![Contact App creation](assets/readme/contact.jpg)
+**11.** Added Contact App.
+You saw my creation, fascinating, don't you want to contact with me?
+You can find my socials there.
+
+![Showcase App creation](assets/readme/show.jpg)
+**12. ** Added Project Showcase App.
+Here, I showcased my top 3 projects. In future, ill add some more.
+I showcased my top 3 projects, they are-
+- **Port Scanner:** It's a network utility for scanning open ports, discovering active hosts and mapping system vulnerabilities.
+- **DNS Logger:** It's a packet inspection tool that captures, parses, and logs real-time DNS queries across network surfaces.
+- **Imt:** It's a custom built personal website that shows my interests towards space, shows my portfolio and updates.
+Always the goated one here will be.
+
+![Gallery App creation](assets/readme/gallery.jpg)
+**13.** Added Gallery App.
+Here, it's 2 albums. One is named Imtiaz, and other is Photographys.
+In Imtiaz, I added 15 of my photos and in Photographys, i added 16.
+Go to check them out, the photos i taken are fires!!
+
+![Logbook App Creation](assets/readme/log.jpg)
+**14.** Added Logbook App.
+Here, I added a logbook.
+It actually doesn't save anything because that would need a backend and i dont wanna get tangled in strings.
+But it actually saves notes!!
+
+
+So, that's my journey of how I made this ImtOS.
+
+![Here we go again](assets/readme/final.jpg)
+![Here we go again](assets/readme/final2.jpg)
+
+So, this turned out as I intended. In WebOS 2, Ill do this mission harder.
+Alhumdulillah, got 11hours on stardance, but this took way more, efforts and everything.
+
+See ya in the next one!
