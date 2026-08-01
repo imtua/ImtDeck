@@ -38,7 +38,7 @@ This isn't actually a media player, coz it just runs some songs.
 But I'll add a whole media feature in it in WebOS 2 Mission!
 
 I added 22 Songs here, they are- 
-- **American Boy**** by Kanye West
+- **American Boy** by Kanye West
 - **Bad Habit** by Steve Lacy 
 - **Bound 2** by Kanye West 
 - **Chamber of Reflection** by Mac DeMarco 
