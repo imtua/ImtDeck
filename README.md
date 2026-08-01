@@ -64,3 +64,16 @@ git clone https://github.com/not-imtiaz/ImtOS
 cd ImtOS
 ```
 
+### 2. Start a local development server:
+Using Python 3
+
+```bash
+python3 -m http.server 8000
+```
+Or using Node/npx;
+```bash
+npx serve .
+```
+
+### 3. Open in browser
+Navigate to http://localhost:8000 in chrome, firefox or brave.
