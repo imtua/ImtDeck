@@ -58,3 +58,9 @@ ImtOS/
 
 Because ImtOS loads external ES modules and assets, it must be served over an HTTP protocol rather than raw file access (file://).
 ### 1. Clone the repository:
+
+```bash
+git clone https://github.com/not-imtiaz/ImtOS
+cd ImtOS
+```
+
