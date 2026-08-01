@@ -15,9 +15,11 @@ I made it show if its online, then it would show current time and those 5 apps i
 In this OS, I used one of my photographys as a wallpaper. This is one of my favourites, coz i went to Sreemangal, Bangladesh in my weekend and took this photo as a memory.
 It was already looking nice, but without any applications and softwares.
 
+![Style file creation](assets/readme/windowmanager.jpg)
 **3.** Created a window manager javascript file.
 It will help me create any sized window in ImtOS without writing the same code again and again. I've tried to keep the aesthetics of MacOS here too.
 
+![Style file creation](assets/readme/terminal.jpg)
 **4.** Added terminal. 
 In this terminal, i've added some easter eggs things.
 Added these commands as commands.
@@ -35,6 +37,7 @@ and typing secret would give you root access of ImtOS.
 
 added them just for fun, they maybe dont make any sense lol.
 
+![Style file creation](assets/readme/media.jpg)
 **5.** Added Media Player.
 This isn't actually a media player, coz it just runs some songs.
 But I'll add a whole media feature in it in WebOS 2 Mission!
