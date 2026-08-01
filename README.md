@@ -38,25 +38,25 @@ This isn't actually a media player, coz it just runs some songs.
 But I'll add a whole media feature in it in WebOS 2 Mission!
 
 I added 22 Songs here, they are- 
-- American Boy by Kanye West
-- Bad Habit by Steve Lacy 
-- Bound 2 by Kanye West 
-- Chamber of Reflection by Mac DeMarco 
-- Chicago by Michael Jackson 
-- Confidence by Kim
-- Dark Red by Steve Lacy
-- Duvet by Bôa
-- Flashing Lights by Kanye West
-- For the First Time by Mac DeMarco
-- From The Start by Laufey
-- Ginseng Strip 2002 by Yung Lean
-- Headlock by Imogen Heap
-- I Wonder by Kanye West
-- Ice by Zertal
-- Let it Happen by Tame Impala
-- Like Him by Tyler, The Creator
-- Lover Girl by Laufey
-- New Person, Same Old Mistakes by Tame Impala
-- See You Again by Tyler, The Creator
-- Tek it by Cafune
-- The Less I Know The Better by Tame Impala
+- **American Boy**** by Kanye West
+- **Bad Habit** by Steve Lacy 
+- **Bound 2** by Kanye West 
+- **Chamber of Reflection** by Mac DeMarco 
+- **Chicago** by Michael Jackson 
+- **Confidence** by Kim
+- **Dark Red** by Steve Lacy
+- **Duvet** by Bôa
+- **Flashing Lights** by Kanye West
+- **For the First Time** by Mac DeMarco
+- **From The Start** by Laufey
+- **Ginseng Strip 2002** by Yung Lean
+- **Headlock** by Imogen Heap
+- **I Wonder** by Kanye West
+- **Ice** by Zertal
+- **Let it Happen** by Tame Impala
+- **Like Him** by Tyler, The Creator
+- **Lover Girl** by Laufey
+- **New Person, Same Old Mistakes** by Tame Impala
+- **See You Again** by Tyler, The Creator
+- **Tek it** by Cafune
+- **The Less I Know The Better** by Tame Impala
