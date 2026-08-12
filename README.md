@@ -122,7 +122,27 @@ Here, I added a logbook.
 It actually doesn't save anything because that would need a backend and i dont wanna get tangled in strings.
 But it actually saves notes!!
 
+## How to run it locally
+Here's how you can run ImtOS locally.
 
+1. Clone the project files/
+
+```bash
+git clone https://github.com/not-imtiaz/ImtOS
+cd ImtOS
+```
+
+2. Start the local python server.
+
+```bash
+python3 -m http.server 8000
+```
+
+3. Then go to your browser and open website.
+
+Then open your browser and go to http://localhost:8000 or [http://127.0.0.1:8000](http://127.0.0.1:8000).
+
+#Conclusion
 So, that's my journey of how I made this ImtOS.
 
 ![Here we go again](assets/readme/final.jpg)
@@ -132,3 +152,5 @@ So, this turned out as I intended. In WebOS 2, Ill do this mission harder.
 Alhumdulillah, got 11hours on stardance, but this took way more, efforts and everything.
 
 See ya in the next one!
+
+
