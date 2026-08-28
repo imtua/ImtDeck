@@ -23,3 +23,6 @@ ImtDeck, a cyberdeck designed by **Imtiaz Ahmed**. In ImtDeck, basic tasks and a
 
 **Files of ImtKeeb-Ortho62**
 - <a href="https://github.com/imtua/ImtDeck/blob/main/production/ImtKeeb-Ortho62/ImtKeeb-Ortho62%20Gerber.zip"><b>ImtKeeb-Ortho62 Gerber Files</a></b> - **/Production/ImtKeeb-Ortho62/ImtKeeb-Ortho62 Gerber.zip**
+- <a href="https://github.com/imtua/ImtDeck/blob/main/PCB/ImtKeeb-Ortho62/ImtKeed-Ortho62.kicad_sch"><b>ImtKeeb-Ortho62 Schematics</a><b> - **/PCB/ImtKeeb-Ortho62/ImtKeed-Ortho62.kicad_sch**
+- <a href="https://github.com/imtua/ImtDeck/blob/main/PCB/ImtKeeb-Ortho62/ImtKeeb-Ortho62.kicad_pcb"><b>ImtKeeb-Ortho62 PCB</a></b> - **/PCB/ImtKeeb-Ortho62/ImtKeed-Ortho62.kicad_pcb**
+
