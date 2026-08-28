@@ -14,3 +14,6 @@ ImtDeck, a cyberdeck designed by **Imtiaz Ahmed**. In ImtDeck, basic tasks and a
 **3D PCB of ImtKeeb-Ortho62:**
 
 ![3D PCB of ImtKeeb-Ortho62](assets/readme/ImtKeed%20PCB%203D.png)
+
+This keyboard will feature-
+- <a href="https://www.amazon.com/dp/B0B3MN1ZLW"> <b>KAILH Low Profile Switch 1350 Chocolate</b></a>
