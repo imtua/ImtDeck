@@ -1,6 +1,6 @@
 # ImtDeck - Your own Cyberdeck
 
-![final look of ImtDeck](assets/readme/final%20look.png)
+![final look of ImtDeck](assets/readme/ImtPad%20Final%20Look.png)
 
 ImtDeck, a cyberdeck designed by **Imtiaz Ahmed**. In ImtDeck, basic tasks and a light AI can be run easily. In this project, it technically contains 2 projects, **ImtDeck-Carrier** and **ImtKeeb-Ortho62**
 
