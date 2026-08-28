@@ -26,3 +26,5 @@ ImtDeck, a cyberdeck designed by **Imtiaz Ahmed**. In ImtDeck, basic tasks and a
 - <a href="https://github.com/imtua/ImtDeck/blob/main/PCB/ImtKeeb-Ortho62/ImtKeed-Ortho62.kicad_sch"><b>ImtKeeb-Ortho62 Schematics</a><b> - **/PCB/ImtKeeb-Ortho62/ImtKeed-Ortho62.kicad_sch**
 - <a href="https://github.com/imtua/ImtDeck/blob/main/PCB/ImtKeeb-Ortho62/ImtKeeb-Ortho62.kicad_pcb"><b>ImtKeeb-Ortho62 PCB</a></b> - **/PCB/ImtKeeb-Ortho62/ImtKeed-Ortho62.kicad_pcb**
 
+This can be used without the ImtDeck.
+
