@@ -4,6 +4,8 @@
 
 ImtDeck, a cyberdeck designed by **Imtiaz Ahmed**. In ImtDeck, basic tasks and a light AI can be run easily. In this project, it technically contains 2 projects, **ImtDeck-Carrier** and **ImtKeeb-Ortho62**.
 
+**Stardance** project: https://stardance.hackclub.com/projects/54966
+
 # Wanted Ingredients to craft ImtDeck
 ## Main items-
 - **Lattepanda MU + Carrier + Active Cooler** - $250.00 - 1
@@ -71,3 +73,23 @@ This can be used without the ImtDeck.
 **PCB of ImtDeck-Carrier:**
 
 ![PCB of ImtDeck-Carrier](/assets/readme/ImtDeck-Carrier%20PCB.png)
+
+**ImtDeck-Carrier** will hold the Lattepanda MU in its place and will distribute powers between items. 
+
+**Files of ImtKeeb-Ortho62**
+- <a href="https://github.com/imtua/ImtDeck/blob/main/production/ImtDeck-Carrier/ImtDeck-Carrier%20Gerber.zip"><b>ImtDeck-Carrier Gerber Files</a></b> - **/Production/ImtDeck-Carrier/ImtDeck-Carrier Gerber.zip**
+- <a href="https://github.com/imtua/ImtDeck/blob/main/PCB/ImtDeck-Carrier/ImtDeck-Carrier.kicad_sch"><b>ImtDeck-Carrier Schematics</a><b> - **/PCB/ImtDeck-Carrier/ImtDeck-Carrier.kicad_sch**
+- <a href="https://github.com/imtua/ImtDeck/blob/main/PCB/ImtDeck-Carrier/ImtDeck-Carrier.kicad_pcbb"><b>ImtDeck-Carrier PCB</a></b> - **/PCB/ImtDeck-Carrier/ImtDeck-Carrier.kicad_pcb**
+
+# Features
+- ImtDeck will feature Linux Mint OS in it.
+- With it, you can access different tools and a lightweight offline AI in it.
+- All ready-to-go device.
+- Can play low-end games on it.
+- Features Keyboard and Trackpad.
+- Sound System.
+- Can run everything a normal laptop can.
+
+# Conclusion
+
+Made by <a href="https://github.com/imtua"><b>Imtiaz</b></a> with the help of <a href="https://hackclub.com"><b>Hack Club</a></b>
