@@ -19,6 +19,7 @@ ImtDeck, a cyberdeck designed by **Imtiaz Ahmed**. In ImtDeck, basic tasks and a
 - **USB Micro Cord** - $13.00 - 1
 - **40MM Speaker** - $6.00 - 1
 - **Tiny SSD** - $70.00 - 1
+
 Check <a href="https://github.com/imtua/ImtDeck/blob/main/ImtDeck%20BOM.csv"><b>ImtDeck BOM.csv</b></a> for links.
 
 ## Hardwares-
