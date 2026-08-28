@@ -25,6 +25,10 @@ ImtDeck, a cyberdeck designed by **Imtiaz Ahmed**. In ImtDeck, basic tasks and a
 - <a href="https://github.com/imtua/ImtDeck/blob/main/production/ImtKeeb-Ortho62/ImtKeeb-Ortho62%20Gerber.zip"><b>ImtKeeb-Ortho62 Gerber Files</a></b> - **/Production/ImtKeeb-Ortho62/ImtKeeb-Ortho62 Gerber.zip**
 - <a href="https://github.com/imtua/ImtDeck/blob/main/PCB/ImtKeeb-Ortho62/ImtKeed-Ortho62.kicad_sch"><b>ImtKeeb-Ortho62 Schematics</a><b> - **/PCB/ImtKeeb-Ortho62/ImtKeed-Ortho62.kicad_sch**
 - <a href="https://github.com/imtua/ImtDeck/blob/main/PCB/ImtKeeb-Ortho62/ImtKeeb-Ortho62.kicad_pcb"><b>ImtKeeb-Ortho62 PCB</a></b> - **/PCB/ImtKeeb-Ortho62/ImtKeed-Ortho62.kicad_pcb**
+- <a href="https://github.com/imtua/ImtDeck/tree/main/QMK"><b>Keyboard QMK config files</b></a> - /QMK
 
 This can be used without the ImtDeck.
+
+# ImtDeck-Carrier - Carrier for MU LattePanda
+**ImtDeck-Carrier** is a carrier that holds the lattepanda and makes it route and connect to devices like the monitor, fan, keyboard etc.
 
