@@ -5,19 +5,35 @@
 ImtDeck, a cyberdeck designed by **Imtiaz Ahmed**. In ImtDeck, basic tasks and a light AI can be run easily. In this project, it technically contains 2 projects, **ImtDeck-Carrier** and **ImtKeeb-Ortho62**.
 
 # Wanted Ingredients to craft ImtDeck
-- Lattepanda MU + Carrier + Active Cooler - $250.00 - 1
-- 11.6 Inch Screen - $129.00 - 1
-- Antenna - $7.99 - 1
-- Audio Card from Waveshare - $51.71 - 1
-- KAILH Linear Low Profile Switches - $56.82 - 3
-- Chosfox CFX BoW Keycap Set - $33.00 - 1
-- TPS43-201A-S - $13.87 - 1
-- Power Bank - $13.00 - 1
-- WIFI Card - $28.00 - 1
-- Pi Pico - $12.00 - 1
-- USB Micro Cord - $13.00 - 1
-- 40MM Speaker - $6.00 - 1
-- Tiny SSD - $70.00 - 1
+## Main items-
+- **Lattepanda MU + Carrier + Active Cooler** - $250.00 - 1
+- **11.6 Inch Screen** - $129.00 - 1
+- **Antenna** - $7.99 - 1
+- **Audio Card from Waveshare** - $51.71 - 1
+- **KAILH Linear Low Profile Switches** - $56.82 - 3
+- **Chosfox CFX BoW Keycap Set** - $33.00 - 1
+- **TPS43-201A-S** - $13.87 - 1
+- **Power Bank** - $13.00 - 1
+- **WIFI Card** - $28.00 - 1
+- **Pi Pico** - $12.00 - 1
+- **USB Micro Cord** - $13.00 - 1
+- **40MM Speaker** - $6.00 - 1
+- **Tiny SSD** - $70.00 - 1
+Check <a href="https://github.com/imtua/ImtDeck/blob/main/ImtDeck%20BOM.csv"><b>ImtDeck BOM.csv</b></a> for links.
+
+## Hardwares-
+- 4x M4 Threaded heat-set brass inserts
+- 26x M3 Threaded heat-set brass inserts
+- 6x M3x8mm Tapered head bolts
+- 8x M3x12mm Tapered head bolts
+- 4x M3x8mm Socket head bolts
+- 4x M3x10mm Socket head bolts
+- 2x M4x14mm Socket head bolts
+- 2x M4x16mm Socket head bolts
+- 2x M4x24mm Socket head bolts
+- 1x 7mm OD Carbon fiber rod, 310mm long (can be any material)
+- 2x 6.5x2.5mm neodymium magnets (optional)
+- 1x Cabinet handle with 4-inch spacing between ends (optional)
 
 # ImtKeeb-Ortho62 - Designed Keyboard for ImtDeck
 **ImtKeeb-Ortho62** is a low-profile ortholinear 62 key keyboard that contains a trackpad in it.
