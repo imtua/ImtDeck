@@ -32,3 +32,10 @@ This can be used without the ImtDeck.
 # ImtDeck-Carrier - Carrier for MU LattePanda
 **ImtDeck-Carrier** is a carrier that holds the lattepanda and makes it route and connect to devices like the monitor, fan, keyboard etc.
 
+**Schematic of ImtDeck-Carrier:**
+
+![Schematic of ImtDeck-Carrier](/assets/readme/ImtDeck-Carrier%20Schematics.png)
+
+**PCB of ImtDeck-Carrier:**
+
+![PCB of ImtDeck-Carrier](/assets/readme/ImtDeck-Carrier%20PCB.png)
