@@ -505,7 +505,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Mu-cyberdeck-carrier.kicad_pro",
+    "filename": "ImtDeck-Carrier.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -662,7 +662,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "/home/imtiaz/Documents/ImtDeck/production/ImtDeck-Carrier/ImtDeck-Carrier Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "layout-final.step",
@@ -842,8 +842,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Mu-cyberdeck-carrier.kicad_sch",
-        "name": "Mu-cyberdeck-carrier",
+        "filename": "ImtDeck-Carrier.kicad_sch",
+        "name": "ImtDeck-Carrier",
         "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ]

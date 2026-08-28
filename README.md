@@ -16,4 +16,7 @@ ImtDeck, a cyberdeck designed by **Imtiaz Ahmed**. In ImtDeck, basic tasks and a
 ![3D PCB of ImtKeeb-Ortho62](assets/readme/ImtKeed%20PCB%203D.png)
 
 This keyboard will feature-
-- <a href="https://www.amazon.com/dp/B0B3MN1ZLW"> <b>KAILH Low Profile Switch 1350 Chocolate</b></a>
+- <a href="https://www.amazon.com/dp/B0B3MN1ZLW"><b>KAILH Low Profile Switch 1350 Chocolate</b></a> - 62 Switches.
+- <a href="https://chosfox.com/collections/keycaps/products/chocfox-bow"><b>Chosfox CFX BoW Keycap Set</b></a> - 62 Keycaps.
+- <a href="https://www.digikey.com/en/products/detail/azoteq-pty-ltd/TPS43-201A-S/7164940"><b>TPS43-201A-S</b></a> Trackpad.
+- <a href="https://store.roboticsbd.com/raspberry-pi/1599-raspberry-pi-pico-robotics-bangladesh.html"><b>Raspberry Pi Pico</b></a> - Brain of the ImtKeeb-Ortho62.
