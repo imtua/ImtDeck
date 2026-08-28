@@ -2,7 +2,22 @@
 
 ![Final Look of ImtDeck](assets/readme/ImtPad%20Final%20Look.png)
 
-ImtDeck, a cyberdeck designed by **Imtiaz Ahmed**. In ImtDeck, basic tasks and a light AI can be run easily. In this project, it technically contains 2 projects, **ImtDeck-Carrier** and **ImtKeeb-Ortho62**
+ImtDeck, a cyberdeck designed by **Imtiaz Ahmed**. In ImtDeck, basic tasks and a light AI can be run easily. In this project, it technically contains 2 projects, **ImtDeck-Carrier** and **ImtKeeb-Ortho62**.
+
+# Wanted Ingredients to craft ImtDeck
+- Lattepanda MU + Carrier + Active Cooler - $250.00 - 1
+- 11.6 Inch Screen - $129.00 - 1
+- Antenna - $7.99 - 1
+- Audio Card from Waveshare - $51.71 - 1
+- KAILH Linear Low Profile Switches - $56.82 - 3
+- Chosfox CFX BoW Keycap Set - $33.00 - 1
+- TPS43-201A-S - $13.87 - 1
+- Power Bank - $13.00 - 1
+- WIFI Card - $28.00 - 1
+- Pi Pico - $12.00 - 1
+- USB Micro Cord - $13.00 - 1
+- 40MM Speaker - $6.00 - 1
+- Tiny SSD - $70.00 - 1
 
 # ImtKeeb-Ortho62 - Designed Keyboard for ImtDeck
 **ImtKeeb-Ortho62** is a low-profile ortholinear 62 key keyboard that contains a trackpad in it.
