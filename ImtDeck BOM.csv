@@ -1,5 +1,8 @@
 Item Name,Qty,Price (total) (USD),Item link,Notes
-Lattepanda MU + Carrier + Active Cooler,1,$250.00,"LattePanda Mu - A Micro x86 Compute Module (N100 CPU, 16GB RAM, 64GB eMMC)",Main Board and Active Cooler for the ImtDeck
+Lattepanda MU,1,$199.00,https://www.dfrobot.com/product-2901.html,Brain ImtDeck
+Active Cooler,1,$12.00,https://www.dfrobot.com/product-2901.html,Active Cooler
+Carrier Board,1,$39.00,https://www.dfrobot.com/product-2901.html,Carrier
+PCB,$70.00,jlcpcb.com,pcb grant
 11.6 Inch Screen,1,$129.00,https://www.dfrobot.com/product-2794.html,Main Display (Touch Display)
 Antenna,1,$7.99,https://www.amazon.com/dp/B07DB5VWS1,Antenna needed for ImtDeck
 Audio Card from Waveshare,1,$51.71,https://www.waveshare.com/usb-to-audio.htm,With Shipping Costs
@@ -18,4 +21,4 @@ Tiny SSD,1,$70.00,Will buy from local shops,Tiny SSD
 ,,,,
 ,,,,
 ,,,,
-Total Price (USD):,$684.39,,,
+Total Price (USD):,$754.39,,,
